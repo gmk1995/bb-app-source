@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ${DOCKER_USERNAME}/bb-app-flux-demo-dev:7.8.0 # {"$imagepolicy": "flux-system:8-demo-image-policy-bb-app"}
+          image: gmk1995/bb-app-flux-demo-dev:7.8.0 # {"$imagepolicy": "flux-system:8-demo-image-policy-bb-app"}  # {"$imagepolicy": "flux-system:8-demo-image-policy-bb-app"}
           imagePullPolicy: Always
           resources:
             requests:
